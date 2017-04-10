@@ -1,0 +1,7 @@
+include README.md CHANGES LICENSE
+recursive-include composer/static *.js
+recursive-include composer/static *.css
+recursive-include composer/static *.png
+recursive-include composer/static/v1/fonts  *.eot *.woff *.tff *.svg
+recursive-include composer/templates *.html
+
