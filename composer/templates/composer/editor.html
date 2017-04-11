@@ -1,4 +1,4 @@
-{% load staticfiles i18n avatar_tags maploom_tags %}
+{% load staticfiles i18n avatar_tags composer_tags %}
 
 <!DOCTYPE html>
 <html ng-app="MapLoom" ng-controller="AppCtrl">
@@ -9,7 +9,7 @@
   var CLOSURE_NO_DEPS = true;
 </script>
 
-{% maploom_js %}
+{% composer_js %}
 
 <script type="text/javascript">
 {% get_current_language as language %}
@@ -68,7 +68,7 @@ $(window).load(function () {
 <body style="height:100%">
 
 
-      {% maploom_html %}
+      {% composer_html %}
 
 
 
