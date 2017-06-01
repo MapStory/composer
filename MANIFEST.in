@@ -3,5 +3,6 @@ recursive-include composer/static *.js
 recursive-include composer/static *.css
 recursive-include composer/static *.png
 recursive-include composer/static/composer/fonts  *.eot *.woff *.tff *.svg
+recursive-include composer/static/viewer/fonts  *.eot *.woff *.tff *.svg
 recursive-include composer/templates *.html
 
